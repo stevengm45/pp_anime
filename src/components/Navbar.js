@@ -8,9 +8,9 @@ export const Navbar = () => {
         <div>
             <div className="header">
                 <nav className='navbar'>
-                    <Link className="link" to="/"><img src="https://res.cloudinary.com/dainl1ric/image/upload/v1648187823/kerberos_mgj3hk.png" className='img-nav' /></Link>    
-                    <Link className="link" to="/">Animes</Link>
-                    <Link className="link" to="/form">Registro</Link>
+                    <Link className="link" to="/pp_anime/"><img src="https://res.cloudinary.com/dainl1ric/image/upload/v1648187823/kerberos_mgj3hk.png" className='img-nav' /></Link>    
+                    <Link className="link" to="/pp_anime/animes">Animes</Link>
+                    <Link className="link" to="/pp_anime/form">Registro</Link>
                 
                 </nav>
             </div>
