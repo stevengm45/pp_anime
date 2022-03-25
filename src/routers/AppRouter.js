@@ -14,9 +14,9 @@ export const AppRouter = () => {
             <Router>
             <Navbar/>
                 <Routes>
-                    <Route path="/" element={<List/>}/>
-                    <Route path="/form" element={<Form/>}/>
-                    <Route path="/*" element={<Navigate to="/"/>}/>
+                    <Route path="/pp_anime/animes" element={<List/>}/>
+                    <Route path="/pp_anime/form" element={<Form/>}/>
+                    <Route path="/pp_anime/*" element={<Navigate to="/"/>}/>
                 </Routes>
             </Router>
         </div>
