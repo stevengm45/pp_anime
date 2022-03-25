@@ -1,0 +1,41 @@
+*{
+    font-family: 'Red Hat Mono', monospace;
+}
+body {
+    background-color: rgb(165, 167, 167);
+}
+.contenedor-cards {
+
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+
+.card-anime {
+    width: 200px;
+    margin: 20px;
+    background-color: rgb(9, 3, 29);
+    color: white;
+    border-radius: 10px;
+}
+
+.img-anime {
+    width: 100%;
+
+    border-radius: 10px 10px 0px 0px;
+}
+.content-info {
+    padding: 0px 15px 15px 15px;
+}
+
+.nombre-anime {
+    font-size: 130%;
+    font-weight: 700;
+}
+.btn-eliminar {
+    margin: 10px 0px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+}

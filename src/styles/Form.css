@@ -1,0 +1,39 @@
+.div-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://res.cloudinary.com/dainl1ric/image/upload/v1648190417/458246_toisrk.jpg');
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario > div {
+    margin: 20px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario > div > input, select, option {
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    
+    border: 2px solid black;
+}
+
+.img-form {
+    border: none;
+}
+
+.btn-enviar {
+    width: 30%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}

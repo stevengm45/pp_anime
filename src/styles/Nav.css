@@ -1,0 +1,23 @@
+.header {
+    background-color: rgb(9, 3, 29);
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.img-nav {
+    width: 100px;
+}
+
+.link {
+    margin: 10px 40px;
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    font-weight: 700;
+}
